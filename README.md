@@ -19,4 +19,4 @@
 
 ### Author
 
-GF-Color is written by [Ahmed Seaf]
+GF-Color is written by [Ahmed Seaf]()
