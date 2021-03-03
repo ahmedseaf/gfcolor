@@ -9,8 +9,7 @@
 
 ## Demo
 
-![Demo](
-https://elhuria.com/public/uploads/blog/image-containerlarge_ilmYcLFgmT1614802835.png)
+![Demo](https://elhuria.com/public/uploads/blog/image-containerlarge_ilmYcLFgmT1614802835.png)
 
 [**Live Demo**](https://ahmedseaf.github.io/gfcolor/)
 
