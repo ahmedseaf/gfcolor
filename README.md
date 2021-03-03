@@ -7,9 +7,9 @@
 * **Wonderful Colors** - A group of the most beautiful soft colors - You can also create shades of two different colors
 
 
-## Demo
+## Demo1
 
-![Demo](https://elhuria.com/public/uploads/blog/image-containerlarge_ilmYcLFgmT1614802835.png)
+![Demo1](https://elhuria.com/public/uploads/blog/image-containerlarge_ilmYcLFgmT1614802835.png)
 
 [**Live Demo**](https://ahmedseaf.github.io/gfcolor/)
 
