@@ -1,0 +1,54 @@
+.main-nav-container{
+  width: 100%;
+  background-color: #2b3a55;
+  box-shadow: 0 0 20px #486497;
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav-container .main-nav{
+  padding: 0 2rem;
+  max-width: 1200px;
+  width: 100%;
+  height: 67px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.main-nav .logo{
+  display: flex;
+  align-items: center;
+
+}
+.main-nav .github a{
+  color: #deeaff;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 1.2em;
+  text-shadow: 0 0 5px #3f83ff;
+}
+.main-nav .logo img{
+  width: 40px;
+  height: 40px;
+  margin-right: 1em;
+}
+.main-nav .logo a{
+  text-decoration: none;
+  font-size: 1.6em;
+  letter-spacing: 2;
+  color: #fff;
+  font-weight: 700;
+}
+
+.main-nav .select button{
+  color: #fff;
+  background-color: #30a9c4;
+}
+
+
+a{
+  text-decoration: none;
+}

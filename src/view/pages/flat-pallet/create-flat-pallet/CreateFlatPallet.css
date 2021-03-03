@@ -1,0 +1,96 @@
+.create-pallet-container{
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  grid-gap: 1rem;
+  margin-top: 9px;
+  /* height: calc(100vh - 80px); */
+  /* overflow: hidden; */
+}
+h1{
+  margin-bottom: 1em;
+  font-size: 1.6em;
+  font-weight: 900;
+  color: #525252;
+}
+.create-pallet-container .left-side{
+  border: 1px solid #d0d0d0;
+  padding: 0 10px;
+}
+.create-pallet-container .left-side .Control-add{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1rem;
+  margin-bottom: 1em;
+}
+.sketch-picker {width: auto !important;}
+.create-pallet-container .left-side .Control-add button{width: 100%;}
+
+.create-pallet-container .content-container .content{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  height: calc(100vh - 215px);
+}
+.create-pallet-container .content-container .content .box-container{
+  width: 20%;
+  height: 25%;
+  position: relative;
+}
+
+
+/*  custom button */
+/* .add-new-color{margin-top: 1rem;} */
+.color-name button{
+  width: 100%;
+  height: 80px;
+  margin-top: 0.5rem
+}
+.color-name{
+  margin: 1em 0;
+}
+.color-name .MuiFormControl-root{width: 100%;}
+
+.top-header-content{
+  width: 100%;
+  height: 80px;
+  padding: 0 1rem;
+  box-shadow: 0 0 20px #747474;
+  /* margin-bottom: 18px; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+/* Inside Box */
+.box-container .box-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 10px 10px;
+}
+.box-container .box-content svg{
+  width: 20px;
+  height: 20px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  color: #474747;
+}
+.box-container:hover svg{
+  transform: scale(1.6);
+  color: #fff;
+}
+
+.content-container form{
+  display: flex;
+  column-gap: 1rem;
+  margin: 0 1rem;
+  align-items: center;
+}
+.content-container a{
+  text-decoration: none;
+}

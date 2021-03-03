@@ -1,0 +1,55 @@
+.Navbar-container{
+  min-height: 60px;
+  width: 100%;
+  background-color: #5b4369;
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+}
+.Navbar-container .Navbar{
+  max-width: 95%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 5px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.Navbar-container .Navbar .Logo-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Navbar-container .Navbar .Logo-container .Logo{
+  margin-right: 1em;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.Navbar-container .Navbar .Logo-container .Logo img{
+  width: 35px;
+  height: 35px;
+}
+.Navbar-container .Navbar .Logo-container .Logo .logo-link{
+  font-size: 1.2em;
+  color: #fff;
+  margin-left: 5px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.Navbar-container .Navbar .Logo-container .Slider{
+  flex: 2;
+}
+.Navbar-container .Navbar .content{
+  justify-self: flex-end;
+}
+
+/* Material - ui */
+.MuiSelect-selectMenu {
+  width: 200px !important;
+  color: #fff !important;
+}
+
+
